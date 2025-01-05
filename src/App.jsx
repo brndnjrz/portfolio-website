@@ -7,6 +7,7 @@ const App = () => {
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
         {/* bg-hero-pattern controls the background and uses src/assets/herobg.png */}
+        {/* To change this background go to tailwind.config.js */}
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
           <Navbar />
           <Hero />

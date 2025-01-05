@@ -72,11 +72,12 @@ const Contact = () => {
       {/* Adds animation by letting it slide in from the left side */}
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
+        // bg-black-100
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
         {/* This is the title */}
         <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <h3 className={styles.sectionHeadText}>Contact</h3>
 
         <form
           ref={formRef}
