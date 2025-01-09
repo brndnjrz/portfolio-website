@@ -6,7 +6,7 @@ import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
   // imports 3d model from public folder; will have to go back and change it 
-  // const computer = useGLTF('./desktop_pc/scene.gltf');
+  // const computer = useGLTF('./desktop_pc/scene.gltfm');
   const computer = useGLTF('./2021_czinger_21c/scene.gltf');
 
   return (
@@ -26,9 +26,10 @@ const Computers = ({ isMobile }) => {
         // controls the position of the computer 
         object={computer.scene}
         // checks if is mobile 
-        scale={isMobile ? 0.7 : 0.75}
+        // scale={isMobile ? 0.7 : 0.75}
+        scale={isMobile ? 200.0 : 205.0}
         position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
-        rotation={[-0.01, -0.2, -0.1]}
+        rotation={[-0.08, -0.2, 0.1]}
       />
     </mesh>
   );

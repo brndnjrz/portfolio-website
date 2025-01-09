@@ -49,9 +49,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in JavaScript, Python, Swift, Node.js, React, Express.js, and using tools like Github, 
-        VS Code, Xcode, PyCharm, Slack, Docker. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly 
-        solutions that solve real-world problems. Let's work together to bring your ideas to life!
+        I am a highly adaptable developer with expertise in JavaScript, Python, Swift, Node.js, React, and Express.js, complemented by experience working with development tools such as GitHub, VS Code, Xcode, PyCharm, Slack, and Docker. My ability to rapidly acquire new skills and technologies enables me to build scalable, efficient, and user-friendly applications while staying ahead of industry trends. Let's work together to bring your ideas to life.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

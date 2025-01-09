@@ -19,8 +19,11 @@ import {
     meta,
     starbucks,
     tesla,
+    appleLogo,
+    arEdu,
     shopify,
     carrent,
+    portfolioWebsite,
     jobit,
     tripguide,
     threejs,
@@ -119,11 +122,11 @@ import {
     {
       title: "iOS/MacOS Technical Supoort Advisor",
       company_name: "Apple",
-      icon: starbucks,
-      iconBg: "#383E56",
+      icon: appleLogo,
+      iconBg: "#ffffff",
       date: "June 2022 - Present",
       points: [
-        "Delievering exceptional customer serevice by resolving complex techical issues, including device configuration, data backup, and iOS/macOS installation.",
+        "Delivering exceptional customer serevice by resolving complex techical issues, including device configuration, data backup, and iOS/macOS installation.",
         "Documenting and maintaining accurate records of customer interactions, technical issues, and resolutions.",
         "Collaborating with various teams an third-party vendors to provide quick and effective solutionsm while maintating confidentiality",
         "Demonstrating the ability to manage mutiple tasks and priorities in a fast paced enviornment, ensuring timely resolution of issues",
@@ -133,8 +136,8 @@ import {
     {
       title: "Tools Software Engineer",
       company_name: "Apple",
-      icon: tesla,
-      iconBg: "#E6DEDD",
+      icon: appleLogo,
+      iconBg: "#ffffff",
       date: "January 2024 - June 2024",
       points: [
         "Assisted in the development of an internal application serving as a documentation resource and training data for a large language model, benefiting both internal users and external partners.",
@@ -146,8 +149,8 @@ import {
     {
       title: "Computer Configuration Technician",
       company_name: "Arey Jones Educational Solutions ",
-      icon: meta,
-      iconBg: "#E6DEDD",
+      icon: arEdu,
+      iconBg: "#ffffff",
       date: "February 2022 - June 2022",
       points: [
         "Configured computer hardware and software systems for educational clients, demonstrating exception attention to detail.",
@@ -188,7 +191,7 @@ import {
     {
       name: "Portfolio Website",
       description:
-        "Web-based platform that allows users to ",
+        "Personal portfolio showcasing my skills, experience and projects.",
       tags: [
         {
           name: "react",
@@ -203,8 +206,9 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      // image: carrent,
+      image: portfolioWebsite,    // added my portfolio website
+      source_code_link: "https://github.com/brndnjrz/portfolio-website",
     },
     // {
     //   name: "Job IT",
