@@ -25,8 +25,11 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import appleLogo from "./company/appleLogo.png"   // added appleLogo.png image to assets folder 
+import arEdu from "./company/arEdu.png"
 
 import carrent from "./carrent.png";
+import portfolioWebsite from "./portfolioWebsite.png"
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -56,7 +59,10 @@ export {
   shopify,
   starbucks,
   tesla,
+  appleLogo,    // added apple image 
+  arEdu,
   carrent,
+  portfolioWebsite,
   jobit,
   tripguide,
 };
