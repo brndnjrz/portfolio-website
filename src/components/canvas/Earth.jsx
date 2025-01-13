@@ -6,12 +6,19 @@ import CanvasLoader from "../Loader";
 
 // loads a 3D earth model using useGLTF
 const Earth = () => {
-  const earth = useGLTF("./planet/scene.gltf");
+  // const earth = useGLTF("./planet/scene.gltf");
+  const earth = useGLTF("./space_station_3/scene.gltf");
 
-  // primitive comoponent is special element that allows you to add raw Three.js objects
+  // primitive component is special element that allows you to add raw Three.js objects
   return (
-    <primitive object={earth.scene} scale={2.5} position-y={0} rotation-y={0} />
-  );
+    <mesh>
+      <ambientLight 
+      color={0xa6b1f7}
+      intensity={2.35}
+      />
+      <primitive object={earth.scene} scale={.75} position-y={0} rotation-y={0} />
+    </mesh>
+      );
 };
 
 const EarthCanvas = () => {
@@ -44,6 +51,7 @@ const EarthCanvas = () => {
         <OrbitControls
           // makes the earth automatically rotate
           autoRotate
+          autoRotateSpeed={-1}
           // prevents zooming in or out when set to false
           enableZoom={false}
           // restricts the camera's movement so that it can only rotate horizontally
