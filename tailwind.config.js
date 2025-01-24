@@ -26,7 +26,8 @@ module.exports = {
       // Background referenced in App.jsx 
       // Made changes to background color 
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg-gray.png')",
+        // "hero-pattern": "url('/src/assets/herobg-gray.png')",
+        "hero-pattern": "url('/src/assets/portfolio_bg.png')",
       },
     },
   },
