@@ -12,7 +12,7 @@ const Computers = ({ isMobile }) => {
   return (
     <mesh>
       {/* create a light on the canvas */}
-      <hemisphereLight intensity={3.5} groundColor='black' />
+      <hemisphereLight intensity={4.5} groundColor='black' />
       <pointLight intensity={10} />
       <spotLight
         position={[-20, 50, 10]}
@@ -27,7 +27,7 @@ const Computers = ({ isMobile }) => {
         object={computer.scene}
         // checks if is mobile 
         // scale={isMobile ? 0.7 : 0.75}
-        scale={isMobile ? 220.0 : 225.0}
+        scale={isMobile ? 250.0 : 255.0}
         position={isMobile ? [2, -2.50, -2] : [2, -2.75, -1.5]}
         rotation={[-0.01, -0.2, -0.01]}
       />

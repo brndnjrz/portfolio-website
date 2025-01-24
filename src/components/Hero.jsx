@@ -11,19 +11,21 @@ const Hero = () => {
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className='flex flex-col justify-center items-center mt-5'>
-        <div className='w-5 h-5 rounded-full bg-[#b3b4bd]' />
-        <div className='w-1 sm:h-80 h-40 gray-gradient' />
+        {/* <div className='w-5 h-5 rounded-full bg-[#b3b4bd]' /> */}
+        {/* <div className='w-1 sm:h-80 h-40 gray-gradient' /> */}
         </div>
 
-        <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#b3b4bd]'>Brandon</span>
+        {/* <div className='flex flex-row justify-center items-center'>
+          <h1 className={`${styles.heroHeadText} text[#00078c]`}>
+            Hey
+            <br className='sm:block hidden' />
+            I'm <span className='text-[#435278]'>Brandon</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          <p className={`${styles.heroSubText} mt-2 text-[#6377ab]`}>
             I develop applications,  <br className='sm:block hidden' />
             with an interest in computer vision and AI
           </p>
-        </div>
+        </div> */}
       </div>
 
       <ComputersCanvas />
