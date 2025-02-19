@@ -25,6 +25,8 @@ import {
     carrent,
     portfolioWebsite,
     jobit,
+    techDashboard,
+    vsCodeExt,
     tripguide,
     threejs,
   } from "../assets";
@@ -57,10 +59,10 @@ import {
       title: "Computer Technician",
       icon: backend,
     },
-    {
-      title: "Car Enthusiast",
-      icon: creator,
-    },
+    // {
+    //   title: "Car Enthusiast",
+    //   icon: creator,
+    // },
   ];
   
   const technologies = [
@@ -120,16 +122,15 @@ import {
   
   const experiences = [
     {
-      title: "iOS/MacOS Technical Supoort Advisor",
+      title: "Technical Support Advisor (iOS/MacOS/MSS)",
       company_name: "Apple",
       icon: appleLogo,
       iconBg: "#ffffff",
       date: "June 2022 - Present",
       points: [
-        "Delivering exceptional customer serevice by resolving complex techical issues, including device configuration, data backup, and iOS/macOS installation.",
-        "Documenting and maintaining accurate records of customer interactions, technical issues, and resolutions.",
-        "Collaborating with various teams an third-party vendors to provide quick and effective solutionsm while maintating confidentiality",
-        "Demonstrating the ability to manage mutiple tasks and priorities in a fast paced enviornment, ensuring timely resolution of issues",
+        "Delivering exceptional customer service by resolving complex technical issues, including device configuration, data backup, and macOS installation.",
+        "Collaborating with cross-functional teams and third-party vendors to implement effective solutions ensuring confidentiality and timely issue resolution in a fast-paced environment.",
+        "Demonstrating the ability to manage and priorities multiple tasks.",
         "Adapting quickly with the latest Apple products, technologies, and trends to provide the best possible support to customers.",
       ],
     },
@@ -140,10 +141,10 @@ import {
       iconBg: "#ffffff",
       date: "January 2024 - June 2024",
       points: [
-        "Assisted in the development of an internal application serving as a documentation resource and training data for a large language model, benefiting both internal users and external partners.",
-        "Collaborated cross-functionally and built relationships with senior management and global stakeholders (USA, Germany, India) to integrate a secure internal video platform.",
-        "Managed multiple projects, delivering progress updates and making improvements based on stakeholder feedback, demonstrating strong organizational and communication skills.",
-        "Designed and implemented a client-server API, exercising independent judgment and adapting quickly to a dynamic, fast-paced environment.",
+        "Designed and implemented responsive, secure, and scalable client-server API for internal web application, enhancing usability and functionality.",
+        "Contributed to the development of an internal application serving as a documentation resource and training data for a large language model, benefiting both internal users and external partners.",
+        "Collaborated with cross-functional teams and senior stakeholders (USA, Germany, India) to integrate a secure internal video platform, improving accessibility and security while addressing stakeholder feedback.",
+        "Delivered high-quality code through debugging, peer reviews, and testing, while managing multiple projects and providing regular progress updates in a fast-paced environment.",
       ],
     },
     {
@@ -153,9 +154,9 @@ import {
       iconBg: "#ffffff",
       date: "February 2022 - June 2022",
       points: [
-        "Configured computer hardware and software systems for educational clients, demonstrating exception attention to detail.",
+        "Configured PC’s as specified by client, including installation of various operating systems, installation of software and related drivers.",
         "Communicated with team members and supervisors to ensure alignment on deadlines and progress.",
-        "Led a team to improve efficiency in computer laser etching, managing competing deadlines to ensure timely project completion.",
+        "Supervised and led a team to improve efficiency in computer laser etching, managing deadlines to ensure timely project completion.",
       ],
     },
   ];
@@ -191,7 +192,7 @@ import {
     {
       name: "Portfolio Website",
       description:
-        "Personal portfolio showcasing my skills, experience and projects.",
+        "Personal portfolio showcasing my skills, experience and projects. Deployed using netlify.",
       tags: [
         {
           name: "react",
@@ -210,48 +211,48 @@ import {
       image: portfolioWebsite,    // added my portfolio website
       source_code_link: "https://github.com/brndnjrz/portfolio-website",
     },
-    // {
-    //   name: "Job IT",
-    //   description:
-    //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    //   tags: [
-    //     {
-    //       name: "react",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "restapi",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "scss",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: jobit,
-    //   source_code_link: "https://github.com/",
-    // },
-    // {
-    //   name: "Trip Guide",
-    //   description:
-    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    //   tags: [
-    //     {
-    //       name: "nextjs",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "supabase",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "css",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: tripguide,
-    //   source_code_link: "https://github.com/",
-    // },
+    {
+      name: "Technical Stock Analysis ",
+      description:
+        "Technical Stock Analysis Dashboard that provides recommendations to buy, hold, or sell based on chart patterns. ",
+      tags: [
+        {
+          name: "python",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ollama",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "streamlit",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: techDashboard,
+      source_code_link: "https://github.com/brndnjrz/technical-analysis-ollama",
+    },
+    {
+      name: "VS Code Extension",
+      description:
+        "Chatbot extension for Visual Studio Code using DeepSeek model. Currently testing and adjusting it.",
+      tags: [
+        {
+          name: "ollama",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "deepseek",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "typescript",
+          color: "green-text-gradient",
+        },
+      ],
+      image: vsCodeExt,
+      source_code_link: "https://github.com/brndnjrz/DeepSeek-VS-Extension",
+    },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
