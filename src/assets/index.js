@@ -32,6 +32,8 @@ import carrent from "./carrent.png";
 import portfolioWebsite from "./portfolioWebsite.png"
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import techDashboard from "./techDashboard.png"
+import vsCodeExt from "./vsCodeExt.png"
 
 export {
   logo,
@@ -64,5 +66,7 @@ export {
   carrent,
   portfolioWebsite,
   jobit,
+  techDashboard,
+  vsCodeExt,
   tripguide,
 };

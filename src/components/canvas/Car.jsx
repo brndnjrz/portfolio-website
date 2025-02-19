@@ -27,7 +27,7 @@ const Cars = ({ isMobile }) => {
         object={car.scene}
         // checks if is mobile 
         // scale={isMobile ? 0.7 : 0.75}
-        scale={isMobile ? 250.0 : 255.0}
+        scale={isMobile ? 190.0 : 195.0}
         position={isMobile ? [2, -2.50, -2] : [2, -2.75, -1.5]}
         rotation={[-0.01, -0.2, -0.01]}
       />
