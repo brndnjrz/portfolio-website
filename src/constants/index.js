@@ -128,10 +128,24 @@ import {
       iconBg: "#ffffff",
       date: "June 2022 - Present",
       points: [
-        "Delivering exceptional customer service by resolving complex technical issues, including device configuration, data backup, and macOS installation.",
-        "Collaborating with cross-functional teams and third-party vendors to implement effective solutions ensuring confidentiality and timely issue resolution in a fast-paced environment.",
-        "Demonstrating the ability to manage and priorities multiple tasks.",
-        "Adapting quickly with the latest Apple products, technologies, and trends to provide the best possible support to customers.",
+        "Diagnosed and resolved software, hardware, and service issues leveraging diagnostic tools and internal databases.",
+        "Translated complex technical information into clear, actionable guidance for users and collaborated with cross-functional teams to share solutions.",
+        "Implemented efficient problem-solving techniques, including text replacement automation for notes, reducing average call handling times.",
+        "Helped develop an internal project generating visual reports from advisor call data, streamlining coaching, saving manager time, and ensuring fair, consistent, and data driven evaluations."
+      ],
+    },
+    {
+      title: "Swift Automation Engineer",
+      company_name: "Apple",
+      icon: appleLogo,
+      iconBg: "#ffffff",
+      date: "June 2025 - November 2025",
+      points: [
+        "Contributed to Python and Swift frameworks for provisioning test devices, automate OS installation, and configure test environments, reducing manual setup time.",
+        "Developed Python based automation pipelines for Apple Foundational model compilation and inference execution(xcrun, tgtool) across diverse SoC variants.",
+        "Generated over 480 outputs used as ground truth datasets for evaluating Apple Foundation Model performance.",
+        "Conducted GPU, ANE, virtualization, and framework testing, resolving failures including system panics, precompile errors, and SSH connectivity issues.",
+        "Executed OATS/SOATS and AQS Paravirt audits, identifying regressions in MPS/MPSGraph and collaborating with engineers to deliver fixes."
       ],
     },
     {
@@ -141,10 +155,10 @@ import {
       iconBg: "#ffffff",
       date: "January 2024 - June 2024",
       points: [
-        "Designed and implemented responsive, secure, and scalable client-server API for internal web application, enhancing usability and functionality.",
-        "Contributed to the development of an internal application serving as a documentation resource and training data for a large language model, benefiting both internal users and external partners.",
-        "Collaborated with cross-functional teams and senior stakeholders (USA, Germany, India) to integrate a secure internal video platform, improving accessibility and security while addressing stakeholder feedback.",
-        "Delivered high-quality code through debugging, peer reviews, and testing, while managing multiple projects and providing regular progress updates in a fast-paced environment.",
+        "Migrated internal documentation from Confluence to a self-hosted secure platform, improving developer onboarding efficiency.",
+        "Built full-stack solutions with API integrations, implementing Apple’s internal video player for secure training content viewing.",
+        "Containerized the application using Docker for reliable deployment and portability, resolving API integration, video UI, and version control.",
+        "Delivered high-quality code through debugging, peer reviews, and testing, while managing multiple projects and providing regular progress updates in a fast-paced environment."
       ],
     },
     {
@@ -156,7 +170,7 @@ import {
       points: [
         "Configured PC’s as specified by client, including installation of various operating systems, installation of software and related drivers.",
         "Communicated with team members and supervisors to ensure alignment on deadlines and progress.",
-        "Supervised and led a team to improve efficiency in computer laser etching, managing deadlines to ensure timely project completion.",
+        "Supervised and led a team to improve efficiency in computer laser etching, managing deadlines to ensure timely project completion."
       ],
     },
   ];
